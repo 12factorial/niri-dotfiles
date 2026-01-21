@@ -1,0 +1,56 @@
+// Get rid of the silly rounded corners.
+window-rule {
+    geometry-corner-radius 0
+    clip-to-geometry true
+}
+
+// Open Librewolf maximized on the "web" workspace, but only at startup.
+window-rule {
+    match app-id="^librewolf$" at-startup=true
+    open-on-workspace "web"
+    open-maximized true
+}
+
+// Open Librewolf PiP floating in the bottom left corner.
+window-rule {
+    match title="^Picture-in-Picture$" app-id="^librewolf$"
+    default-column-width { fixed 755; }
+    default-window-height { fixed 425; }
+    open-floating true
+    open-focused false
+    default-floating-position x=12 y=12 relative-to="bottom-left"
+    focus-ring { on; }
+    border { off; }
+}
+
+// Open Vesktop on the "chat" workspace.
+window-rule {
+    match app-id="^vesktop$"
+    open-on-workspace "chat"
+    open-maximized true
+}
+
+// Don't focus Vesktop at startup.
+window-rule {
+    match app-id="^vesktop$" at-startup=true
+    open-focused false
+}
+
+// Open all Steam windows on the "games" workspace.
+window-rule {
+    match app-id="^steam"
+    open-on-workspace "games"
+}
+
+// Open Steam games in fullscreen.
+window-rule {
+    match app-id="^steam_app_"
+    open-fullscreen true
+}
+
+// Open Steam menus floating.
+window-rule {
+    match app-id="^steam$"
+    exclude title="^Steam$"
+    open-floating true
+}

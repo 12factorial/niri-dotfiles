@@ -1,0 +1,23 @@
+spawn-at-startup "librewolf"
+spawn-at-startup "vesktop"
+spawn-at-startup "steam"
+
+prefer-no-csd
+
+screenshot-path "~/Pictures/screenshots/%Y-%m/screenshot-%dd-%Hh-%Mm-%Ss.png"
+
+overview {
+    zoom 0.75
+    backdrop-color "#1D2021"
+    workspace-shadow {
+	on
+	softness 20
+	spread 5
+	offset x=0 y=0
+	color "#141617"
+    }
+}
+
+clipboard { disable-primary; }
+
+hotkey-overlay { skip-at-startup; }
