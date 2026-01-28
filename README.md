@@ -4,3 +4,5 @@
 - [ ] Create & finish Dunst config, colorscheme and OSD.
 - [ ] Create & finish Fuzzel theme.
 - [ ] Create & finish Waybar config, workspaces, current window, temperature, volume, date & time, etc.
+
+- [ ] Create install script, handles symlinks, moving files into correct spots and GTK settings.
