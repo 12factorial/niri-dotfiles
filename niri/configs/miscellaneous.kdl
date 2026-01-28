@@ -2,6 +2,8 @@ spawn-at-startup "librewolf"
 spawn-at-startup "vesktop"
 spawn-at-startup "steam"
 
+spawn-sh-at-startup "swaybg -i $XDG_CONFIG_HOME/niri/wallpapers/flowering-rain.png -m fill"
+
 spawn-sh-at-startup "gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-BL-LB-Dark"
 spawn-sh-at-startup "gsettings set org.gnome.desktop.wm.preferences button-layout ':'"
 
@@ -11,13 +13,13 @@ screenshot-path "~/Pictures/screenshots/%Y-%m/screenshot-%dd-%Hh-%Mm-%Ss.png"
 
 overview {
     zoom 0.75
-    backdrop-color "#1D2021"
+    backdrop-color "#181825"
     workspace-shadow {
 	on
 	softness 20
 	spread 5
 	offset x=0 y=0
-	color "#141617"
+	color "#11111b"
     }
 }
 

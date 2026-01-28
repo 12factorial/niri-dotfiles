@@ -10,16 +10,16 @@ layout {
 	off
 	width 2
 	active-color "#89b4fa"
-	inactive-color "#7C6F64"
-	urgent-color "#EA6962"
+	inactive-color "#313244"
+	urgent-color "#f38ba8"
     }
 
     border {
 	on
 	width 2
 	active-color "#89b4fa"
-	inactive-color "#7C6F64"
-	urgent-color "#EA6962"
+	inactive-color "#313244"
+	urgent-color "#f38ba8"
     }
 
     shadow {
@@ -27,7 +27,7 @@ layout {
 	softness 10
 	spread 2
 	offset x=0 y=0
-	color "#141617"
+	color "#11111b"
     }
 
     tab-indicator {
@@ -39,8 +39,8 @@ layout {
 	length total-proportion=1.0
 	position "right"
 	active-color "#89b4fa"
-	inactive-color "#7C6F64"
-	urgent-color "#EA6962"
+	inactive-color "#313244"
+	urgent-color "#f38ba8"
     }
 
     insert-hint {

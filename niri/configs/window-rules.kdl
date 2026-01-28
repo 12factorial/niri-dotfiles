@@ -42,6 +42,12 @@ window-rule {
     open-on-workspace "games"
 }
 
+// Open Steam maximized.
+window-rule {
+    match app-id="^steam$" title="^Steam$"
+    open-maximized true
+}
+
 // Open Steam games in fullscreen.
 window-rule {
     match app-id="^steam_app_"
@@ -55,6 +61,7 @@ window-rule {
     open-floating true
 }
 
+// Open Sober (Roblox) on games workspace, maximized.
 window-rule {
     match app-id="^org.vinegarhq.Sober$"
     open-on-workspace "games"
