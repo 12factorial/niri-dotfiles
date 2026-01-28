@@ -2,6 +2,9 @@ spawn-at-startup "librewolf"
 spawn-at-startup "vesktop"
 spawn-at-startup "steam"
 
+spawn-sh-at-startup "gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-BL-LB-Dark"
+spawn-sh-at-startup "gsettings set org.gnome.desktop.wm.preferences button-layout ':'"
+
 prefer-no-csd
 
 screenshot-path "~/Pictures/screenshots/%Y-%m/screenshot-%dd-%Hh-%Mm-%Ss.png"

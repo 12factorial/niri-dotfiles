@@ -9,7 +9,7 @@ layout {
     focus-ring {
 	off
 	width 2
-	active-color "#928374"
+	active-color "#89b4fa"
 	inactive-color "#7C6F64"
 	urgent-color "#EA6962"
     }
@@ -17,7 +17,7 @@ layout {
     border {
 	on
 	width 2
-	active-color "#928374"
+	active-color "#89b4fa"
 	inactive-color "#7C6F64"
 	urgent-color "#EA6962"
     }
@@ -38,14 +38,14 @@ layout {
 	width 2
 	length total-proportion=1.0
 	position "right"
-	active-color "#928374"
+	active-color "#89b4fa"
 	inactive-color "#7C6F64"
 	urgent-color "#EA6962"
     }
 
     insert-hint {
 	on
-	color "#D4BE98"
+	color "#89b4fa"
     }
 
     struts { }

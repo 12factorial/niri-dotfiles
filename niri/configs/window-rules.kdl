@@ -54,3 +54,9 @@ window-rule {
     exclude title="^Steam$"
     open-floating true
 }
+
+window-rule {
+    match app-id="^org.vinegarhq.Sober$"
+    open-on-workspace "games"
+    open-fullscreen true
+}
