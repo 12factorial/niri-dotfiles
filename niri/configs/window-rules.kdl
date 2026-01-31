@@ -67,3 +67,10 @@ window-rule {
     open-on-workspace "games"
     open-fullscreen true
 }
+
+// Open Faugus Launcher on games workspace, floating.
+window-rule {
+    match app-id="^faugus-launcher$"
+    open-on-workspace "games"
+    open-floating true
+}
