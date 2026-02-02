@@ -1,6 +1,6 @@
 // Get rid of the silly rounded corners.
 window-rule {
-    geometry-corner-radius 0
+    geometry-corner-radius 5
     clip-to-geometry true
 }
 
@@ -66,6 +66,13 @@ window-rule {
     match app-id="^org.vinegarhq.Sober$"
     open-on-workspace "games"
     open-fullscreen true
+}
+
+// Open Sober (Roblox) subwindows floating.
+window-rule {
+    match app-id="^sober_services$"
+    open-on-workspace "games"
+    open-floating true
 }
 
 // Open Faugus Launcher on games workspace, floating.
