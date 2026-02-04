@@ -1,7 +1,8 @@
 fastfetch
 
-
 alias \
+    cd='z'\
+    ci='zi'\
     ls='ls -lh --group-directories-first --color=auto' \
     la='ls -lah --group-directories-first --color=auto' \
     fk='sudo !!' \
@@ -65,5 +66,6 @@ SAVEHIST=1000000
 PROMPT='%~ > '
 
 # Load external modules.
+eval "$(zoxide init zsh)"
 source <(fzf --zsh)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
