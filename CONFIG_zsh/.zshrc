@@ -24,6 +24,8 @@ setopt extended_glob
 setopt globdots
 setopt inc_append_history
 setopt interactive_comments
+setopt no_case_glob
+setopt no_case_match
 setopt share_history
 
 # Unset main opts.
