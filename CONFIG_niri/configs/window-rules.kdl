@@ -79,5 +79,5 @@ window-rule {
 window-rule {
     match app-id="^faugus-launcher$"
     open-on-workspace "games"
-    open-floating true
+    open-floating false
 }
